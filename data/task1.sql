@@ -25,7 +25,7 @@ create table bookings (
 
 create table reviews (
 	
-    id int,
+    id int auto_increment,
     date timestamp
         default current_timestamp 
         on update current_timestamp,
